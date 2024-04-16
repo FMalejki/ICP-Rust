@@ -14,5 +14,13 @@
   "type": "module",
   "workspaces": [
     "src/warsztaty_rust_frontend"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "mdb-vue-ui-kit": "^4.1.1"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "sass-loader": "^14.2.0"
+  }
 }

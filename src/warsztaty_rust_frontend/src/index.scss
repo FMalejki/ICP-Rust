@@ -1,3 +1,58 @@
+@import 'bootstrap';
+
+//containers working temporarly as sliders
+.box{
+  margin-right: auto;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.boxSecond{
+  width: 300px;
+  height: 300px;
+  margin: 50px;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.textInsideBoxSecond{
+  height: 250px;
+  padding: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.textInsideBox{
+  height: 300px;
+  padding: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+//end 
+//header
+.headerMod{
+  position:fixed;
+  top:0;
+  width: 100%;
+}
+
+.firstElement{
+  padding-top:80px;
+}
+//end
+//input containers
+
+.bigInputBox{
+  width: 80%;
+  height: 200px;
+  align-self: center;
+}
+
+//end
+
 body {
   font-family: sans-serif;
   font-size: 1.5rem;
@@ -8,6 +63,11 @@ img {
   max-height: 25vw;
   display: block;
   margin: auto;
+}
+
+.center {
+  text-align: center;
+  align-self: center;
 }
 
 form {
