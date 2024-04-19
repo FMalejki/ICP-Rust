@@ -1,5 +1,9 @@
 service : {
+  add_user : (text, text) -> ();
+  check_if_username_exist : (text) -> () query;
+  check_password : (text, text) -> () query;
   dodaj_wpis : (text) -> ();
   greet : (text) -> (text) query;
   pobierz_wpisy : () -> (vec text) query;
+  test_list_passwords : () -> (vec record { text; text }) query;
 }
